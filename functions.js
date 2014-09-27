@@ -1,9 +1,10 @@
 //Write a function called 'welcome' that takes in a name (say Tyler), and then returns 'Welcome, Tyler' (or whatever the name was).
 
-  //Function definition here
-
-
-  //Call the function here
+  var welcome = function(name){
+    alert("Welcome " + name + "!");
+  }
+//Function definition here
+welcome("ryan");
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
@@ -12,10 +13,12 @@
 
 //Write a function called 'multiply' that takes in two numbers, multiplies them together, and returns the result
 
-  //Function definition here
+var multiply = function(numbers1, numbers2){
+  alert(numbers1 * numbers2);
+}
 
 
-  //Call the function here
+multiply(2, 33);
 
 
 
@@ -34,6 +37,10 @@
     obj.odds ----> [1,3,5]
 */
   
+  var dice = function(){
+    var myArray = [1,2,3,4,5,6];
+    var myObject = {evens:, odds:};
+  }
   
 
 /* we have an i5 processor and are currious as to what cores are needed when we are playing Minecraft.
