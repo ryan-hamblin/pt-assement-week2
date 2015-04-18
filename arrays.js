@@ -10,8 +10,6 @@ family.shift();
 
 
 
-//Add a new family member as the youngest member
-
 family.push("bart");
 
 
